@@ -84,7 +84,7 @@ function displayReminders() {
 }
 
 
-init() => {
+function init() {
     let storedDay = JSON.parse(localStorage.getItem("myDay"));
 
     if (storedDay) {
